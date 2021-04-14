@@ -2,12 +2,19 @@
   "name": "@web-lite/cra-template",
   "private": false,
   "version": "1.0.0",
+  "author": {
+    "name": "Amir.H Ebrahimi",
+    "email": "amirhosseinebrahimi77@gmail.com"
+  },
   "keywords": [
     "react",
     "create-react-app",
     "template",
     "weblite"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Create react app template for wapps frontend.",
   "repository": {
     "type": "git",
