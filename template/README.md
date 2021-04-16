@@ -1,12 +1,12 @@
 <div align="center">
-  <img alt="weblite-wapp-brand" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOC4wNyAxNy45OSI+PHBhdGggZmlsbD0iIzAxYTVmYiIgZD0iTTQuODYgMGgtMS44QTMuMDYgMy4wNiAwIDAwMCAzLjA3djQuODZoNC44NmEzLjA2IDMuMDYgMCAwMDMuMDctMy4wN1YyLjk4QTMuMDQgMy4wNCAwIDAwNC44NiAweiIvPjxwYXRoIGZpbGw9IiNlOTI1MDAiIGQ9Ik0xNSAwaC0xLjc5YTMuMDYgMy4wNiAwIDAwLTMuMDcgMy4wN3Y0Ljg2SDE1YTMuMDYgMy4wNiAwIDAwMy4wNy0zLjA3VjIuOThBMy4wNCAzLjA0IDAgMDAxNSAweiIvPjxwYXRoIGZpbGw9IiM1ZmJmMmMiIGQ9Ik00Ljg2IDEwLjA2aC0xLjhBMy4wNiAzLjA2IDAgMDAwIDEzLjEzdjQuODZoNC44NmEzLjA2IDMuMDYgMCAwMDMuMDctMy4wN3YtMS44YTMuMDYgMy4wNiAwIDAwLTMuMDctMy4wNnoiLz48cGF0aCBmaWxsPSIjZmZjNDAwIiBkPSJNMTUgMTAuMDZoLTEuNzlhMy4wNiAzLjA2IDAgMDAtMy4wNyAzLjA3djQuODZIMTVhMy4wNiAzLjA2IDAgMDAzLjA3LTMuMDd2LTEuOEEzLjA2IDMuMDYgMCAwMDE1IDEwLjA3eiIvPjwvc3ZnPg==" width="50" heigth="50"/>
+  <img alt="weblite-wapp-brand" src="./public/store.svg" width="50" heigth="50"/>
 	<h1>Wapp Name</h1>
 		Wapp Description
 </div>
 
-## Data flows & scehmas
+## Data flows & schemas
 
-- schema of data wapp recives
+- schema of data wapp receives
 - schema of your redux
   > screen shots and codes here
 
@@ -16,19 +16,17 @@
 
 ## Stack
 
-- [neo4j](github/npm-link) - Graph database designed to scale
-
 ## Screenshots
 
 - screen shots of difference wapp scene
 
 ## Maintainers
 
-- list of mainters
+- list of maintainers
 
 ## Related
 
-- simliar application
+- similar application
 
 ---
 
@@ -53,7 +51,7 @@ You may also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build has being minified, and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.

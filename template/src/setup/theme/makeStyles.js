@@ -5,10 +5,10 @@ export const makeStyles = (Theme, Props, ClassKey) =>
 
 /*
  * A patch fixing MUI-React 17 incompatibility
- * style will no respect speceficity in production build
+ * style will no respect specificity in production build
  * stack
  * React 17.0.2
- * MaterailUI 4.11.3
+ * MaterialUI 4.11.3
  *
  * Use this makeStyles in you stylesheet or pass index:1 to material makeStyles as a HACK
  */

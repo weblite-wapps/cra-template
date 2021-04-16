@@ -8,7 +8,7 @@ export default function Home({ colorId, changeColor }) {
     <div>
       <h1 className={classes.headerText}>Home</h1>
       <Button backgroundColor="green" onClick={changeColor}>
-        Home Button
+        Color changer
       </Button>
     </div>
   )

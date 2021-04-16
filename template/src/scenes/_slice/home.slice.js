@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { __STORE_DISPATCH__ } from '../../setup/store'
 
 const usersSlice = createSlice({
   name: 'home',
@@ -8,7 +7,7 @@ const usersSlice = createSlice({
   },
   reducers: {
     setColorId: (state, action) => {
-      // mutatation will not cause any problem here
+      // mutation will not cause any problem here
       // or you can enhance all your config in payload object
       state.colorId = action.payload
     },
@@ -18,7 +17,7 @@ const usersSlice = createSlice({
 const { actions, reducer } = usersSlice
 export default reducer
 
-// ACTINOS
+// ACTIONS
 export const { setColorId } = actions
 // DISPATCHES
 // you can use following code outside react component, it directly dispatch to redux
@@ -26,6 +25,6 @@ export const { setColorId } = actions
 // const dispatchSetColorId = colorId => __STORE_DISPATCH__(setColorId(colorId))
 
 // VIEW
-export const colorIdView = state => state.colorId
+export const colorIdView = state => state.home.colorId
 // if you need part of your current slice, prefix your function with get
-// const getSomethingView = id => state => state.something[id]
+// const getSomethingView = id => state => state.home.something[id]

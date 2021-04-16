@@ -46,7 +46,8 @@ const COLORS = Object.freeze([
 ])
 const colorRecommender = (seed = 0) => COLORS[Math.abs(seed) % COLORS.length]
 
-export default {
+const palette =  {
   ui: uiColors,
   colorRecommender,
 }
+export default palette 
