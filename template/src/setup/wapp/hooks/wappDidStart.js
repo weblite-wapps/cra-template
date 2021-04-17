@@ -1,5 +1,3 @@
-const { W } = window
 export const wappDidStart = async () => {
-  const wappInputs = W.wapp.getInput()
-  console.log(wappInputs0)
+  console.log("wappInputs = W.wapp.getInput()")
 }

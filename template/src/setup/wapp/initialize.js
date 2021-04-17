@@ -4,5 +4,5 @@ import { wappDidStart } from './hooks'
 
 mockWebliteApi()
 const { W } = window
-W.setHooks()
+W.setHooks({})
 W.initializeAsync().then(wappDidStart)

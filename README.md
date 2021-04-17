@@ -8,9 +8,16 @@ This is the official Weblite template for Create React App used in wapps.
 
 ```bash
 npx create-react-app my-app --template @web-lite
-# or
-npx create-react-app my-app --template @web-lite/cra-template
 ```
+##  🚀 Opinionated design structure
+- Inspired by angular code structure
+##  📊  Highly scalable front-end app
+- Best practice of redux and react
+##  🎨  Predefined Material styles configuration
+- Made by an enhanced version of Material Theme provider
+## 👍🏻 Really easy to use
+- Using immer and redux-toolkit make immutability nightmare a shine
+
 
 For more information, please refer to:
 
