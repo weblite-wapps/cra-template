@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
+// import { __STORE_DISPATCH__ } from '../../setup/store'
 
-const usersSlice = createSlice({
+const homeSlice = createSlice({
   name: 'home',
   initialState: {
     colorId: 0,
@@ -14,7 +15,7 @@ const usersSlice = createSlice({
   },
 })
 
-const { actions, reducer } = usersSlice
+const { actions, reducer } = homeSlice
 export default reducer
 
 // ACTIONS
