@@ -3,7 +3,6 @@
     "dependencies": {
       "@material-ui/core": "^4.11.3",
       "@material-ui/icons": "^4.11.2",
-      "@reach/router": "^1.3.4",
       "@reduxjs/toolkit": "^1.5.1",
       "clsx": "^1.1.1",
       "redux": "^4.0.5",
@@ -13,7 +12,7 @@
       "web-vitals": "^1.1.1"
     },
     "devDependencies": {
-      "@web-lite/api-types": "^1.1.0"
+      "@web-lite/api-types": "1.1.1"
     },
     "scripts": {
       "dev": "PORT=3001 react-scripts start",
