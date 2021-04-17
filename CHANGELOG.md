@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/weblite-wapps/cra-template/tree/HEAD)
+## [v1.1.0](https://github.com/weblite-wapps/cra-template/tree/v1.1.0) (2021-04-17)
 
-[Full Changelog](https://github.com/weblite-wapps/cra-template/compare/v1.0.1...HEAD)
+[Full Changelog](https://github.com/weblite-wapps/cra-template/compare/v1.0.1...v1.1.0)
 
 **Merged pull requests:**
 
