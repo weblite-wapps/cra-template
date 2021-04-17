@@ -8,7 +8,7 @@ const homeSlice = createSlice({
   },
   reducers: {
     setColorId: (state, action) => {
-      // mutation will not cause any problem here
+      // mutation won't cause any problem here
       // or you can enhance all your config in payload object
       state.colorId = action.payload
     },

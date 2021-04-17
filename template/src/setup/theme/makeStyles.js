@@ -5,7 +5,7 @@ export const makeStyles = (Theme, Props, ClassKey) =>
 
 /*
  * A patch fixing MUI-React 17 incompatibility
- * style will no respect specificity in production build
+ * style won't respect specificity in production build
  * stack
  * React 17.0.2
  * MaterialUI 4.11.3
